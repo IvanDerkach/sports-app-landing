@@ -2,9 +2,9 @@
 
 ###[Demo](https://ivanderkach.github.io/sports-app-landing/src/index.html)
 
-### Mobile app for Premier league fans
+### Description
 
-*Tell about your project*
+*Mobile App for Premier League fans*
 
 ### Technologies are used
 
