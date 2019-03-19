@@ -1,6 +1,6 @@
 # Project Name
 
-###[Demo](https://link-to-github-pages.com)
+###[Demo](https://ivanderkach.github.io/sports-app-landing/)
 
 ### Description
 
@@ -9,5 +9,4 @@
 ### Technologies are used
 
 - *HTML*
-- *CSS*
-- ...
+
