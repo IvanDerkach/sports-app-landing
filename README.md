@@ -4,9 +4,10 @@
 
 ### Description
 
-*Mobile App, for Premier League fans*
+*Tell about your project*
 
 ### Technologies are used
 
 - *HTML*
-
+- *CSS*
+- ...
