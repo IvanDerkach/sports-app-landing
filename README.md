@@ -1,6 +1,6 @@
 # Project Name
 
-###[Demo](https://ivanderkach.github.io/sports-app-landing/)
+###[Demo](https://ivanderkach.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
