@@ -1,8 +1,8 @@
-# Project Name
+# Sports App landing
 
 ###[Demo](https://ivanderkach.github.io/sports-app-landing/src/index.html)
 
-### Description
+### Mobile app for Premier league fans
 
 *Tell about your project*
 
