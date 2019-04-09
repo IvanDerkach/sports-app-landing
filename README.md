@@ -1,12 +1,13 @@
-# Sports App landing
+# Project Name
 
-### [Demo](https://ivanderkach.github.io/sports-app-landing/src/index.html)
+### [Demo](https://link-to-github-pages.com)
 
 ### Description
 
-Mobile App for Premier League fans
+Tell about your project
 
 ### Technologies are used
 
 - HTML
-
+- CSS
+- ...

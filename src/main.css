@@ -1,7 +1,35 @@
-* {
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  margin: 226px 0 0 163px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  position: absolute;
+  width: 71px;
+  height: 30px;
+  left: 163px;
+  top: 63px;
+}
+
+.header {
+  display: flex;
+  background: white url(../img/mobile_phones.png) no-repeat right;
+  height: 665px;
+  left: 0;
+  top: 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
 }
