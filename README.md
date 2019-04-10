@@ -1,13 +1,12 @@
-# Project Name
+Sports app 
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://ivanderkach.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
-Tell about your project
+Mobli phone app for footbal fans.
 
 ### Technologies are used
 
 - HTML
 - CSS
-- ...
