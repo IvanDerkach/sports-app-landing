@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+html {
+  --text_color: #4f4f4f;
+  --title_color: #333;
+  --background_color: #f4f6f9;
+  --background_light: #eee;
+  --button: #979797;
+  --button_on: #02a9f4;
+}
