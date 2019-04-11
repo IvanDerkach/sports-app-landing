@@ -257,11 +257,12 @@ h2 {
 .interface {
   display: flex;
   justify-content: space-between;
+  background: url("img/test_background.svg"), no-repeat, right;
 }
 
 .interface_description {
   display: flex;
-  flex-basis: 480px;
+  flex-basis: 479px;
   flex-direction: column;
   margin: 217px 90px 171px 162px;
 }
@@ -274,7 +275,7 @@ h2 {
   margin-top: 27px;
 }
 
-.interface_test {
+.interface_text {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -284,5 +285,110 @@ h2 {
 }
 
 .interface_demonstration {
-  margin: 60px 274px 0 0;
+  display: flex;
+  margin: 60px 269px 0 0;
+  position: relative;
+  flex-basis: 363px;
 }
+
+.mobile_notifications {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+/*.first_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/first_circle.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.second_circle {*/
+/*  position: absolute;*/
+/*  width: 602px;*/
+/*  height: 602px;*/
+/*  background: url("img/second_circle.svg"), no-repeat;*/
+/*  top: -22px;*/
+/*  left: -106px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.circle_dot {*/
+/*  background-image: url("img/circle_dot.svg");*/
+/*}*/
+
+/*.third_circle {*/
+/*  position: absolute;*/
+/*  width: 800px;*/
+/*  height: 716px;*/
+/*  box-sizing: border-box;*/
+/*  background: url("img/third_circle.svg"), no-repeat, center;*/
+/*  top: -115px;*/
+/*  left: -203px;*/
+/*  z-index: -1;*/
+/*  opacity: 0.5;*/
+/*}*/
+
+/*.fourth_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/fourth_circle.svg.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.fifth_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/fifth_circle.svg.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.sixth_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/sixth_circle.svg.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.seventh_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/seventh_circle.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.eighth_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/eighth_circle.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.ninth_circle {*/
+/*  position: absolute;*/
+/*  width: 402px;*/
+/*  height: 402px;*/
+/*  background-image: url("img/ninth_circle.svg");*/
+/*  top: 78px;*/
+/*  left: -6px;*/
+/*  z-index: -1;*/
+/*}*/
