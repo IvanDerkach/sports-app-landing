@@ -289,12 +289,20 @@ h2 {
   margin: 60px 269px 0 0;
   position: relative;
   flex-basis: 363px;
+  top: 17px;
+  right: 190px;
 }
 
 .mobile_notifications {
   position: absolute;
-  top: 10px;
-  left: -10px;
+  top: 57px;
+  left: 11px;
+}
+
+.in_mobile {
+  position: absolute;
+  bottom: 130px;
+  right: -24px;
 }
 
 /*.first_circle {*/
