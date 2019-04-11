@@ -6,7 +6,7 @@ body {
 
 .header {
   display: flex;
-  background: url(../img/mobile_phones.svg) var(--background_color) no-repeat right;
+  background: url(img/mobile_phones.svg) var(--background_color) no-repeat right;
   height: 665px;
   left: 0;
   top: 0;
@@ -55,15 +55,14 @@ h1 {
 
 .description {
   display: flex;
-  background: white url("../img/background_description.svg") no-repeat left;
 }
 
 .app_demonstration {
-  background: linear-gradient(90deg, transparent, white);
+  background: linear-gradient(90deg, transparent, white), url("img/background_description.svg");
   display: flex;
   flex-direction: column;
   height: 592px;
-  width: 805px;
+  width: 50%;
   margin-right: 80px;
 }
 
@@ -207,8 +206,9 @@ input:checked[type="checkbox"]::before {
 }
 
 .description_text {
-  flex-basis: 582px;
-  margin: 133px 61px 20px 117px;
+  width: 50%;
+  margin: 0;
+  padding: 133px 61px 20px 84px;
 }
 
 h2 {
