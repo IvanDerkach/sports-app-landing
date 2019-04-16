@@ -77,7 +77,8 @@ h1 {
   border-radius: 4px;
   height: 218px;
   width: 360px;
-  margin: 109px 170px 78px 163px;
+  margin: 0 auto;
+  top: 107px;
   z-index: 2;
 }
 
