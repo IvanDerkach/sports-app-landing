@@ -336,6 +336,15 @@ h2 {
   z-index: -1;
 }
 
+.circle_dot {
+  background: url("img/circle_dot.svg") no-repeat center ;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 125px;
+  left: -75px;
+}
+
 .third_circle {
   width: 800px;
   height: 800px;
@@ -412,4 +421,9 @@ h2 {
   z-index: -1;
   box-sizing: border-box;
   opacity: 0.15;
+}
+
+.features {
+  display: flex;
+  flex-flow: column wrap;
 }
