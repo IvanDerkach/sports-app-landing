@@ -424,6 +424,65 @@ h2 {
 }
 
 .features {
+  background: url("img/background_features.svg") no-repeat;
+  margin: 0;
+}
+
+.features__wrapper {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  margin: 0;
+}
+
+.features__title {
+  text-align: center;
+  color: var(--white);
+  font-size: 28px;
+  line-height: 37px;
+  margin-top: 76px;
+}
+
+.features_lists {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 56px 164px 65px;
+}
+
+.features_list-1 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features_list-2 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 50px 0 0;
+  padding: 0;
+}
+
+.features_list-3 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 35px 0 0;
+  padding: 0;
+}
+
+.features_list__item {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  line-height: 23px;
+  width: 311px;
+}
+
+.list-item__text {
+  margin: 11px 0 0;
 }
