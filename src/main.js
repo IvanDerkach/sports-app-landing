@@ -5,7 +5,7 @@ $('.users-reviews__cards').slick({
   slidesToShow: 3,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 800,
       settings: {
         arrows: false,
         centerMode: true,
