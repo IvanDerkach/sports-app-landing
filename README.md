@@ -4,7 +4,7 @@ Sports app
 
 ### Description
 
-Mobli phone app for footbal fans.
+Mobile phone app for footbal fans.
 
 ### Technologies are used
 
