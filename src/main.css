@@ -649,9 +649,6 @@ h2 {
   display: flex;
 }
 
-.footer-wrapper__navigation {
-}
-
 .navigation_links {
   display: flex;
   list-style-type: none;
