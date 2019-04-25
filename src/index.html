@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" type="text/css" href="../lib/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css">
+  <link rel="stylesheet" href="../lib/Animate.css">
 </head>
 
 <body>
@@ -14,13 +15,13 @@
     <div class="logo_container">
       <a href="javascript:void(0)"><img src="img/LOGO.svg" alt="Logo"></a>
     </div>
-    <div class="header_title">
+    <div class="header_title wow fadeInLeft">
       <h1>Get a personalized football experience tailored just for you</h1>
     </div>
-    <div class="header_text">
+    <div class="header_text wow fadeInRight">
       <p>Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</p>
     </div>
-    <div class="header_button_container">
+    <div class="header_button_container wow fadeIn">
       <a class="Apple_button" href="javascript:void(0)"><img src="img/Apple%20Store.svg" alt="AppleStore"></a>
       <a class="GooglePlay_button" href="javascript:void(0)"><img src="img/Google%20Play.svg" alt="GooglePlay"></a>
     </div>
@@ -90,8 +91,8 @@
   <div class="interface_demonstration">
     <div class="interface_demonstration__phone">
       <img class="mobile_interface" src="img/mobile_Salah.svg" alt="">
-      <img class="mobile_notifications" src="img/notifications.svg" alt="">
-      <img class="in_mobile" src="img/in_mobile.svg" alt="">
+      <img class="mobile_notifications wow zoomIn" src="img/notifications.svg" alt="">
+      <img class="in_mobile wow zoomIn" src="img/in_mobile.svg" alt="">
       <div class="first_circle"></div>
       <div class="second_circle"></div>
       <div class="circle_for_dot"><div class="circle_dot"></div></div>
@@ -291,6 +292,10 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../lib/slick/slick.min.js"></script>
 <script src="main.js"></script>
+<script src="../lib/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 
 </body>
 </html>
