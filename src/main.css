@@ -342,7 +342,22 @@ h2 {
   width: 60px;
   height: 60px;
   bottom: 125px;
-  left: -75px;
+  left: 5px;
+}
+
+.circle_for_dot {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: -25px;
+  left: -105px;
+  animation: dot 30s infinite linear;
+}
+
+@keyframes dot {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .third_circle {
@@ -596,13 +611,20 @@ h2 {
 
 .featured-websites__list {
   display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 1081px;
   list-style-type: none;
   margin: 0 180px 70px;
   padding: 0;
 }
 
 .list-item {
-  margin-right: 79px;
+  margin-right: 78px;
+}
+
+.list-item:last-child {
+  margin: 0;
 }
 
 .download {
@@ -639,25 +661,41 @@ h2 {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   background-color: var(--blue);
   margin: 0;
   padding: 50px 161px 47px;
 }
 
 .footer-wrapper__logo {
-  display: flex;
+  margin-top: 9px;
 }
 
 .navigation_links {
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding-left: 50px;
 }
 
-.navigation_social {
+.navigation_ul {
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+}
+
+.navigation__item {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  margin-right: 37px;
+  text-decoration: none;
+}
+
+.navigation__item:hover {
+  text-decoration: underline;
+}
+
+.navigation_ul__item {
+  margin-right: 17px;
 }
