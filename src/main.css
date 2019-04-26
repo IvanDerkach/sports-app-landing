@@ -620,7 +620,7 @@ h2 {
 
 .download {
   display: flex;
-  background: url("img/Pogba_image.svg") no-repeat left white;
+  background: url("img/Pogba_image.png") no-repeat left white;
   background-size: contain;
 }
 
